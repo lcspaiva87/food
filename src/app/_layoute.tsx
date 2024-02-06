@@ -7,6 +7,7 @@ import {
 } from '@expo-google-fonts/inter';
 import { Slot } from "expo-router";
 import { SafeAreaView } from "react-native";
+import { Loading } from './components/loading';
 
 
 export default function Layout() {
@@ -18,7 +19,7 @@ export default function Layout() {
   })
 
   if (!fontsLoaded) {
-    return 
+    return <Loading />
   }
 
   return (
