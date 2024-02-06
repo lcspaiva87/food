@@ -1,3 +1,4 @@
+import { Loading } from "@/components/loading";
 import {
   Inter_400Regular,
   Inter_500Medium,
@@ -7,8 +8,6 @@ import {
 } from '@expo-google-fonts/inter';
 import { Slot } from "expo-router";
 import { SafeAreaView } from "react-native";
-import { Loading } from './components/loading';
-
 
 export default function Layout() {
   const [fontsLoaded] = useFonts({
