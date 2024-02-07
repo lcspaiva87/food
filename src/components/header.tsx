@@ -6,7 +6,7 @@ export function Header(){
       <View className="flex-1">
         <Image 
         source={require('../assets/logo.png')}
-        className="h-6 w-6"
+        className="h-6 w-32"
         />
         <Text className="text-white text-lg font-bold">Cardápio</Text>
       </View>

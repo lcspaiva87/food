@@ -1,8 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/app/**/*.{ts,tsx}",
-    "./src/components/**/*.{ts,tsx}"
+    "./src/app/**/*.{ts,tsx}","./src/components/**/*.{ts,tsx}"
   ],
   theme: {
     extend: {
@@ -12,7 +11,7 @@ module.exports = {
         body: "Inter_400Regular",
         bold: "Inter_700Bold",
       }
-    },
+    }
   },
   plugins: [],
 }
